@@ -1,0 +1,5 @@
+<complications xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <complication id="0" access="public" longLabel="@Strings.HeightLong" shortLabel="@Strings.HeightShort" icon="@Drawables.ComplicationIcon" glancePreview="true">
+        <faceIt defaultText="@Strings.HeightLong" />
+    </complication>
+</complications>

@@ -9,6 +9,7 @@ class SudestadaApp extends Application.AppBase {
 
     (:typecheck(disableGlanceCheck))
     function onStart(state as Dictionary or Null) as Void {
+        TidePublisher.publishStored();
     }
 
     (:typecheck(disableGlanceCheck))

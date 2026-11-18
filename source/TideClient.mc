@@ -45,6 +45,7 @@ class TideClient {
             var normalized = TideFormat.normalize(data as Dictionary);
             if (normalized["h"] != null) {
                 TideStore.save(normalized);
+                TidePublisher.publishStored();
                 lastError = null;
             } else {
                 lastError = "Sin datos";

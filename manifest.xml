@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application entry="SudestadaApp" id="C4E8A1B27F3D4C9E8A6B5D4F3E2C1B0A" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="4.2.0" name="@Strings.AppName" type="watch-app">
+        <iq:products>
+            <iq:product id="venu3"/>
+            <iq:product id="venu3s"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>spa</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
